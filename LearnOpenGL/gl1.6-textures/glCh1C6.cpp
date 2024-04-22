@@ -73,10 +73,10 @@ int main() {
 		0, 1, 2,
 	};
 	float texCoords[] = {
-		0.0f, 0.0f, 
+		0.0f, 0.0f,
 		1.0f, 0.0f,
 		0.5f, 1.0f,
-	}
+	};
 	unsigned int VBO;
 	unsigned int VAO;
 	unsigned int EBO;
