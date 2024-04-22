@@ -82,8 +82,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>D:\Tools\third_parties\glew-3.4;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\Tools\third_parties\glad\include;D:\Tools\third_parties\glew-3.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\tools\third_parties\glew-3.4;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\tools\third_parties\glad\include;D:\tools\third_parties\glew-3.4\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

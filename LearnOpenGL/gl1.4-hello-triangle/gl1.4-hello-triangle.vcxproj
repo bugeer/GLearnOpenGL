@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Tools\third_parties\glad\include;D:\Tools\third_parties\glew-3.4\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Tools\third_parties\glew-3.4;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\tools\third_parties\glad\include;D:\tools\third_parties\glfw-3.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\tools\third_parties\glfw-3.4;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -144,6 +144,9 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
