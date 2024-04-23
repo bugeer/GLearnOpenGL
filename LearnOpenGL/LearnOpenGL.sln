@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl1.5-shaders", "gl1.5-shad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl1.6-textures", "gl1.6-textures\gl1.6-textures.vcxproj", "{60545D5A-4781-4070-8DEE-E8452629BF2B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl1.7-transformation", "gl1.7-transformation\gl1.7-transformation.vcxproj", "{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl1.8-coordinate", "gl1.8-coordinate\gl1.8-coordinate.vcxproj", "{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +75,22 @@ Global
 		{60545D5A-4781-4070-8DEE-E8452629BF2B}.Release|x64.Build.0 = Release|x64
 		{60545D5A-4781-4070-8DEE-E8452629BF2B}.Release|x86.ActiveCfg = Release|Win32
 		{60545D5A-4781-4070-8DEE-E8452629BF2B}.Release|x86.Build.0 = Release|Win32
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Debug|x64.ActiveCfg = Debug|x64
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Debug|x64.Build.0 = Debug|x64
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Debug|x86.Build.0 = Debug|Win32
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Release|x64.ActiveCfg = Release|x64
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Release|x64.Build.0 = Release|x64
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Release|x86.ActiveCfg = Release|Win32
+		{BCC8BA19-1BB8-4DB2-AB20-ED90D548BD0B}.Release|x86.Build.0 = Release|Win32
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Debug|x64.ActiveCfg = Debug|x64
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Debug|x64.Build.0 = Debug|x64
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Debug|x86.Build.0 = Debug|Win32
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Release|x64.ActiveCfg = Release|x64
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Release|x64.Build.0 = Release|x64
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Release|x86.ActiveCfg = Release|Win32
+		{73B35554-F9C2-4A30-894D-5AAFDCB97FB2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
