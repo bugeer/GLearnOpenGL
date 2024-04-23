@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bcc8ba19-1bb8-4db2-ab20-ed90d548bd0b}</ProjectGuid>
-    <RootNamespace>gl17transformation</RootNamespace>
+    <ProjectGuid>{fe67ba24-aeb0-4cae-8f3d-87e40eb74e72}</ProjectGuid>
+    <RootNamespace>gl19camera</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,12 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\common\glad.c" />
-    <ClCompile Include="glCh1C7.cpp" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="..\common\camera.h" />
     <ClInclude Include="..\common\Shader.h" />
     <ClInclude Include="..\common\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\glad.c" />
+    <ClCompile Include="glCH1C9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
